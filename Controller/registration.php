@@ -102,7 +102,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         if (empty($age)) {
             $ageError = "Age is required.";
         } elseif (!is_numeric($age) || $age <= 0) {
-            $ageError = "Please enter a valid positive number for age.";
+            $ageError = "Please enter a number for age.";
         } elseif ($age < 18) {
             $ageError = "You must be at least 18 years old.";
         } else {
