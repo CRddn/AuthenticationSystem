@@ -5,8 +5,8 @@ require_once "config.php";
 // Defines the variables and initialises with empty values
 $username = $password = $confirm_password = "";
 $username_err = $password_err = $confirm_password_err = "";
-$address = $_POST["address"];
-$phone = $_POST["phone"];
+$address = "";
+$phone = "";
 $age = "";
 $ageError = "";
  
